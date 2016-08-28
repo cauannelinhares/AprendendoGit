@@ -17,3 +17,9 @@ git push
 
 Para atualizar os arquivos do repositório com os arquivos do Github:
 git pull
+
+Para fazer upload de repositório no PC para o Github com o PC sendo a origem:
+git remote add origin https://github.com/cauannelinhares/AprendendoGit
+git add .
+git commit -m "Upload do primeiro arquivo"
+git push --set-upstream origin master
