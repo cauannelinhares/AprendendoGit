@@ -1,0 +1,19 @@
+Documentação GitHub usando GitBash
+
+Para configurar um repositório:
+cd <caminho da pasta desejada>
+git init
+git config --global user.name "CauanneLinhares"
+git config --global user.email "cl3376@columbia.edu"
+
+Para setar um repositório que já existe no Github no desktop:
+git push --set-upstream https://github.com/cauannelinhares/AnaliseProjetoDeSoftware master
+git pull <link>
+
+Para atualizar os arquivos do github a partir dos arquivos do seu PC:
+git add <arquivos que você deseja adicionar>
+git commit -m "Mensagem do commit"
+git push
+
+Para atualizar os arquivos do repositório com os arquivos do Github:
+git pull
